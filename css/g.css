@@ -1,0 +1,264 @@
+@media (min-width: 576px) {
+
+  /*--- Navigation --*/
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, .6);
+  }
+
+  .navbar-brand img {
+    height: 2.8rem;
+  }
+
+  .navbar-nav li {
+    padding-right: 1rem;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-top: .8rem;
+  }
+
+  .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #5663FF;
+  }
+
+  /*-- Landing Page --*/
+  .home-inner {
+    background-image: url(img/LoriDisplay.png);
+  }
+
+  .caption {
+    width: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+    color: #fff;
+  }
+
+  .f1 {
+    bottom: 0;
+    position: relative;
+    height: 300px;
+  }
+
+  .caption h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem #000;
+    padding-bottom: 1rem;
+  }
+
+  .caption {
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem #000;
+    padding-bottom: 1rem;
+  }
+
+  .para-main {
+    /* color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .para-main-rent {
+    /* color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .btn-lg {
+    border-width: medium;
+    border-radius: 1;
+    /* letter-spacing: .4rem; */
+    text-transform: uppercase;
+  }
+
+  h5 {
+    /* text-transform: lowercase; */
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    text-shadow: .1rem .1rem .8rem #000;
+    padding-bottom: 1rem;
+    margin-right: 0px;
+    margin-left: 100px;
+  }
+
+  .img-landing {
+    height: 700px;
+    width: 340px;
+  }
+
+  .webcontent-title {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    line-height: 30px;
+    color: #777777;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .headi {
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+    margin: 20px;
+  }
+
+  .webcontent-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #777777;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+
+  .webcontent {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    text-align: justify;
+  }
+
+  ul.checkmark li:before {
+    content: "\2713\0020";
+    color: green;
+  }
+
+  ul.checkmark li {
+    list-style: none;
+  }
+
+  /*--- LANDING PAGE ENDS ---*/
+  /*--- HOW IT WORKS STARTS ---*/
+  .hiw {
+    font-family: 'Comfortaa', cursive;
+  }
+
+  #how-it-works {
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+  }
+
+  .img-hiw {
+    margin-top: -30px;
+    height: 680px;
+    width: 330px;
+  }
+
+  .img-hiw-5 {
+    width: 330px;
+    height: 700px;
+  }
+
+  .para-main {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  .para-main-left {
+    margin-left: 200px;
+    margin-right: auto;
+    font-size: 22px;
+    text-align: left;
+    text-align: justify;
+  }
+
+  .para-main-left-req {
+    margin-left: 200px;
+    margin-right: auto;
+    font-size: 22px;
+    text-align: left;
+    text-align: justify;
+  }
+
+  .hiw-head {
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+    margin-top: 100px
+  }
+
+  .hiw-head-req {
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+    /* margin-top: 100px; */
+    margin-left: 200px;
+    font-size: 35px;
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+  }
+
+  .disp {
+    margin-bottom: 30px;
+  }
+
+  .hiw-head-lend {
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+    color: #5663FF;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 200px;
+    /* margin-top: 100px */
+  }
+
+  .hiw-head-rent {
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+    /* margin-top: 100px; */
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+  }
+
+  /*--- HOW IT WORKS ENDS---*/
+  .bg-head {
+    margin-top: 150px;
+  }
+}

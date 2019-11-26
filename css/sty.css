@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,700&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+  /* width: 100%; */
+  /* margin-right: 0; */
+}
+
+/*============= MOBILE VERSION STARTS=============*/
+@media (max-width: 576px) {
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 1) !important;
+    /* margin-right: 0; */
+    /* width: 90%; */
+  }
+
+  .navbar-brand img {
+    height: 2rem;
+  }
+
+  /*-- Landing Page --*/
+  .home-wrap {
+    width: 100%;
+  }
+
+  .home-inner {
+    width: 100%;
+    background-image: url(img/LoriDisplay.png);
+  }
+
+  .caption {
+    width: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 15%;
+    /* margin-right: 0; */
+    z-index: 1;
+    color: #fff;
+  }
+
+  .f1 {
+    bottom: 0;
+    position: relative;
+    height: 300px;
+  }
+
+  .caption h1 {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem #000;
+    /* padding-bottom: 1rem; */
+  }
+
+  .para-main {
+    /* color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .btn-lg {
+    border-width: medium;
+    border-radius: 1;
+    /* letter-spacing: .2rem; */
+    text-transform: uppercase;
+  }
+
+  .btn-a h1 {
+    letter-spacing: .4rem;
+  }
+
+  .btn-a h5 {
+    /* margin-top: -10px !important; */
+    /* margin-bottom: -40px !important; */
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  h5 {
+    /* text-transform: lowercase; */
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 300;
+    /* letter-spacing: 0.1rem; */
+    line-height: 1.6rem;
+    text-shadow: .1rem .1rem .8rem #000;
+    /* padding-bottom: 1rem; */
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .img-landing {
+    /* margin-top: -30px; */
+    height: 400px;
+    width: 195px;
+  }
+
+  .webcontent-title {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    line-height: 30px;
+    color: #777777;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  /* how it works */
+  /* how to list */
+  .headi {
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 0px;
+  }
+
+  #how-it-works {
+    margin-top: 40px;
+    /* margin-bottom: 100px; */
+  }
+
+  .hid {
+    display: none;
+  }
+
+  .hiw {
+    font-family: 'Comfortaa', cursive;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-hiw {
+    margin-top: -80px;
+    height: 380px;
+    width: 190px;
+  }
+
+  .img-hiw-5 {
+    width: 190px;
+    height: 380px;
+  }
+
+  .hiw-head {
+    font-size: 22px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+    /* margin-top: 100px */
+  }
+
+  .hiw-head-lend {
+    font-size: 22px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+    color: #5663FF;
+    text-transform: uppercase;
+    margin-top: -50px;
+    /* margin-left: -90px; */
+    /* margin-top: 100px */
+  }
+
+  .hiw-head-rent {
+    font-size: 22px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+    /* margin-bottom: 100px */
+  }
+
+  .hiw-head-req {
+    font-size: 22px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+    /* margin-bottom: 100px */
+    /* margin-left: 200px; */
+    font-size: 25px;
+    text-align: left;
+    color: #5663FF;
+    text-transform: uppercase;
+  }
+
+  #how-it-works3 {
+    /* padding-bottom: 100px; */
+    /* margin-top: 300px; */
+  }
+
+  .para-main {
+    /* width: 90%; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    text-align: left;
+  }
+
+  .para-main-rent {
+    /* width: 90%; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    text-align: left;
+    /* margin-bottom: -3px; */
+    line-height: 15px;
+    /* margin-bottom: 300px; */
+  }
+
+  .para-main b {
+    /* width: 90%; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    text-align: center !important;
+  }
+
+  .para-main-left {
+    /* margin-left: 200px; */
+    margin-right: auto;
+    font-size: 17px;
+    text-align: left;
+    /* text-align: justify; */
+  }
+
+  .para-main-left-req {
+    /* margin-left: 200px; */
+    margin-right: auto;
+    font-size: 14px;
+    text-align: left;
+    /* text-align: justify; */
+  }
+
+  .br-lend {
+    margin-bottom: 75px;
+  }
+
+  .webcontent-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #777777;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+
+  .webcontent {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    text-align: justify;
+  }
+
+  ul.checkmark li:before {
+    content: "\2713\0020";
+    color: green;
+  }
+
+  ul.checkmark li {
+    list-style: none;
+  }
+
+  /*--- LANDING PAGE ENDS ---*/
+  /*--- HOW IT WORKS STARTS ---*/
+  /*--- HOW IT WORKS ENDS---*/
+  /* .bg-head {
+    margin-top: 150px;
+  } */
+}
+
+/*============= MOBILE VERSION ENDS =============*/
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+/*============= FOOTER STARTS=============*/
+p {
+  color: #777;
+}
+
+.fp1 {
+  color: #fff;
+  background: #000;
+  width: 100%;
+  padding: 20px;
+}
+
+.fp1 p {
+  color: #4a4a4a;
+}
+
+.copy {
+  text-transform: capitalize;
+  text-align: center;
+  padding: 20px;
+}
+
+.titlef {
+  text-transform: uppercase;
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  font-weight: bolder;
+  letter-spacing: .05rem;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.footer-top {
+  background: #181496;
+  padding: 80px 0;
+  position: relative;
+  left: 0;
+  bottom: 0px;
+}
+
+.segment-one h3 {
+  font-family: cursive;
+  color: #fff;
+  margin: 10px
+}
+
+.segment-two h2 {
+  color: #fff;
+  /* font-family: Helvetica; */
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.segment-two h2:before {
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-two ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.segment-two ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+}
+
+.segment-two ul li a {
+  color: #e4e4e4;
+  text-decoration: none;
+}
+
+.segment-two ul li a:hover {
+  color: #c65039;
+  text-decoration: none;
+}
+
+.segment-three h2 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.segment-three h2:before {
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+/*============= FOOTER ENDS=============*/
+/*============= COURSE SECTION =============*/
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+
+.narrow h1 {
+  font-size: 2.4rem;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
