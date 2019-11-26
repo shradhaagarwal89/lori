@@ -24,6 +24,14 @@ body {
     /* width: 90%; */
     text-align: right;
    }
+   .btn-lg-b {
+    background: #5663FF;
+    border-width: medium;
+    border-radius: 2;
+    /* letter-spacing: .4rem; */
+    text-transform: uppercase;
+    border: solid #5663FF;
+  }
 
   .navbar-brand img {
     height: 2rem;
