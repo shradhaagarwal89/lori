@@ -6,7 +6,8 @@
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-  color: #505962;
+  color: #3f464d;
+  background-color: #000;
   /* width: 100%; */
   /* margin-right: 0; */
 }
