@@ -88,6 +88,17 @@
     border-radius: 1;
     /* letter-spacing: .4rem; */
     text-transform: uppercase;
+    /* border: solid red; */
+
+  }
+  .btn-lg-b {
+    background: #5663FF;
+    border-width: medium;
+    border-radius: 2;
+    /* letter-spacing: .4rem; */
+    text-transform: uppercase;
+    border: solid #5663FF;
+
   }
 
   h5 {
@@ -183,8 +194,9 @@
  
 }
   .img-hiw-5 {
-    width: 330px;
-    height: 700px;
+  margin-top: 50px;
+  width: 305px;
+  height: 600px;
   }
 
   .para-main {
@@ -266,6 +278,7 @@
     text-transform: uppercase;
   }
 
+
   /*--- HOW IT WORKS ENDS---*/
   .bg-head {
     margin-top: 150px;
@@ -275,4 +288,15 @@
     margin-left: 100px;
 
   }
+.flink a{ 
+  color: #fff;
+
+  text-decoration: none;
+}
+
+.flink a:hover{
+  color: #5663FF;
+  text-decoration: none;
+}
+
 }
