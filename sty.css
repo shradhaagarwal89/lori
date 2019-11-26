@@ -22,7 +22,8 @@ body {
     background: rgba(0, 0, 0, 1) !important;
     /* margin-right: 0; */
     /* width: 90%; */
-  }
+    text-align: right;
+   }
 
   .navbar-brand img {
     height: 2rem;
@@ -317,10 +318,10 @@ p {
 }
 
 .fp1 {
-  color: #fff;
+  color: #000;
   background: #000;
   width: 100%;
-  padding: 20px;
+  padding-bottom: 10px;
 }
 
 .fp1 p {
@@ -329,8 +330,10 @@ p {
 
 .copy {
   text-transform: capitalize;
+  color: black;
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
+  padding-bottom: 0px;
 }
 
 .titlef {

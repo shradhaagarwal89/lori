@@ -7,6 +7,7 @@
     font-size: .85rem;
     letter-spacing: .1rem;
     background: rgba(0, 0, 0, .6);
+    /* text-align: right; */
   }
 
   .navbar-brand img {
@@ -260,5 +261,10 @@
   /*--- HOW IT WORKS ENDS---*/
   .bg-head {
     margin-top: 150px;
+    margin-left: 100px;
+  }
+  .move-right{
+    margin-left: 100px;
+
   }
 }
