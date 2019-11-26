@@ -26,6 +26,9 @@
   .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
     color: #5663FF;
   }
+  .nav-link{
+    text-align: right;
+  }
 
   /*-- Landing Page --*/
   .home-inner {
@@ -101,8 +104,8 @@
   }
 
   .img-landing {
-    height: 700px;
-    width: 340px;
+    height: 600px;
+    width: 305px;
   }
 
   .webcontent-title {
@@ -170,10 +173,15 @@
 
   .img-hiw {
     margin-top: -30px;
-    height: 680px;
-    width: 330px;
+    height: 600px;
+    width: 305px;
   }
-
+.img-hiw-55{
+  margin-top: 50px;
+   height: 600px;
+    width: 305px;
+ 
+}
   .img-hiw-5 {
     width: 330px;
     height: 700px;
